@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  third-room:
+    container_name: third-room
+    hostname: third-room
+    build:
+      context: .
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    
