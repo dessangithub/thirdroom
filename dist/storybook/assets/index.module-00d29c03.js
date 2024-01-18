@@ -1,0 +1,2 @@
+import{r as t}from"./index-f2bd0723.js";function l(r,e){const[s,u]=t.useState("ltr"),[n,a]=t.useState(),i=t.useRef(0);return t.useEffect(()=>{if(e===void 0&&r!=null&&r.parentElement){const o=getComputedStyle(r.parentElement);a(o)}},[r,e]),t.useEffect(()=>(e===void 0&&function o(){i.current=requestAnimationFrame(()=>{const c=n==null?void 0:n.direction;c&&u(c),o()})}(),()=>cancelAnimationFrame(i.current)),[n,e,u]),e||s}export{l as u};
+//# sourceMappingURL=index.module-00d29c03.js.map

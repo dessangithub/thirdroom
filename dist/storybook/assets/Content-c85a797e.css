@@ -1,0 +1,1 @@
+.Content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:100%}.Content__top,.Content__bottom{-ms-flex-negative:0;flex-shrink:0}.Content,.Content__children{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;min-height:0;min-width:0}

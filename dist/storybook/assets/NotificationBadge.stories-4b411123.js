@@ -1,0 +1,9 @@
+import{a as e,j as m}from"./jsx-runtime-06a742f9.js";import{c as p}from"./index-f9f0573c.js";import{T as f}from"./Text-9cbc10ca.js";import"./index-f2bd0723.js";import"./_commonjsHelpers-042e6b4d.js";function a({className:n,variant:o="primary",content:t}){const r=t!==void 0,l=p("NotificationBadge",`NotificationBadge--${o}`,{"NotificationBadge--with-content":r},n);return e("span",{className:l,children:r&&(typeof t=="string"||typeof t=="number"?e(f,{variant:"b3",color:`on-${o}`,type:"span",weight:"semi-bold",children:t}):t)})}try{a.displayName="NotificationBadge",a.__docgenInfo={description:"",displayName:"NotificationBadge",props:{className:{defaultValue:null,description:"",name:"className",required:!1,type:{name:"string"}},variant:{defaultValue:{value:"primary"},description:"",name:"variant",required:!1,type:{name:"enum",value:[{value:'"primary"'},{value:'"secondary"'},{value:'"danger"'}]}},content:{defaultValue:null,description:"",name:"content",required:!1,type:{name:"ReactNode"}}}}}catch{}const B={title:"NotificationBadge",component:a},i=()=>m("div",{className:"flex",children:[e(a,{}),e(a,{content:"5"}),e(a,{content:"95",variant:"secondary"}),e(a,{content:"99+",variant:"danger"})]});var s,c,d;i.parameters={...i.parameters,docs:{...(s=i.parameters)==null?void 0:s.docs,source:{originalSource:`() => {
+  return <div className="flex">\r
+      <NotificationBadge />\r
+      <NotificationBadge content="5" />\r
+      <NotificationBadge content="95" variant="secondary" />\r
+      <NotificationBadge content="99+" variant="danger" />\r
+    </div>;
+}`,...(d=(c=i.parameters)==null?void 0:c.docs)==null?void 0:d.source}}};const _=["NotificationBadgeStories"];export{i as NotificationBadgeStories,_ as __namedExportsOrder,B as default};
+//# sourceMappingURL=NotificationBadge.stories-4b411123.js.map

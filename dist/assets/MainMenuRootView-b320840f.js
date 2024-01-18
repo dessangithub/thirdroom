@@ -1,0 +1,2 @@
+import{o as e,r as s,a,F as m}from"./main.cc7980d7.js";import{u as n,w as l,c as f}from"./overlayVisibility-d52fa692.js";import{W as u}from"./WorldThumbnail-72ae1991.js";import"./modulepreload-polyfill-3cfb730f.js";import"./editor-9e67c00a.js";import"./Deferred-af9e678f.js";import"./common-1b4c5772.js";function w(){const[{entered:o,loading:t}]=e(l),{exitWorld:r}=n(),[,i]=e(f);return s.useEffect(()=>{!t&&!o&&i(!0)},[i,t,o]),s.useEffect(()=>{o&&r()},[o,r]),a(m,{children:a(u,{})})}export{w as default};
+//# sourceMappingURL=MainMenuRootView-b320840f.js.map

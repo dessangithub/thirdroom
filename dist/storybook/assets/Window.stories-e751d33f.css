@@ -1,0 +1,1 @@
+.Window{height:100%;width:100%;border-radius:var(--br-lg);background-color:var(--bg-surface);-webkit-box-shadow:var(--bs-surface);box-shadow:var(--bs-surface);overflow:hidden}.WindowContent{height:100%;overflow:hidden}.WindowContent__aside{max-width:43%;width:100%}.WindowAside{height:100%;padding:0 var(--sp-xs) var(--sp-xs) 0}

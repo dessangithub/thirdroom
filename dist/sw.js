@@ -1,0 +1,2 @@
+const o="mxc_download_v1",c=/^\S+\/_matrix\/media\/r0\/download\/\S+$/;self.addEventListener("activate",function(r){r.waitUntil(caches.keys().then(t=>Promise.all(t.map(e=>{if(e!==o)return caches.delete(e)}))))});self.addEventListener("fetch",r=>{const{request:t}=r;t.method!=="GET"||c.test(t.url)===!1||r.respondWith(caches.open(o).then(e=>e.match(t).then(n=>n||fetch(t.clone()).then(i=>(i.ok&&r.waitUntil(e.put(t,i.clone())),i))).catch(n=>{throw console.error(`Service Worker Error fetching ${t.url}:`,n),n})))});
+//# sourceMappingURL=sw.js.map

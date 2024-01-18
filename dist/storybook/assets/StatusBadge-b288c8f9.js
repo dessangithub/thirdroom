@@ -1,0 +1,2 @@
+import{a as t}from"./jsx-runtime-06a742f9.js";function e({status:a}){return t("span",{className:`StatusBadge StatusBadge--${a}`})}try{e.displayName="StatusBadge",e.__docgenInfo={description:"",displayName:"StatusBadge",props:{status:{defaultValue:null,description:"",name:"status",required:!0,type:{name:"enum",value:[{value:'"offline"'},{value:'"online"'},{value:'"dnd"'}]}}}}}catch{}export{e as S};
+//# sourceMappingURL=StatusBadge-b288c8f9.js.map

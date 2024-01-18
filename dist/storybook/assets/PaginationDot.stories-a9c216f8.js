@@ -1,0 +1,6 @@
+import{a as e}from"./jsx-runtime-06a742f9.js";import{c as o}from"./index-f9f0573c.js";import"./index-f2bd0723.js";import"./_commonjsHelpers-042e6b4d.js";function t({className:n,max:l,value:c}){return e("div",{className:o("PaginationDot",n),children:Array.from({length:l}).map((u,i)=>e("span",{className:o("PaginationDot__item",{"PaginationDot__item--active":i+1===c})},i))})}try{t.displayName="PaginationDot",t.__docgenInfo={description:"",displayName:"PaginationDot",props:{className:{defaultValue:null,description:"",name:"className",required:!1,type:{name:"string"}},max:{defaultValue:null,description:"",name:"max",required:!0,type:{name:"number"}},value:{defaultValue:null,description:"",name:"value",required:!0,type:{name:"number"}}}}}catch{}const f={title:"PaginationDot",component:t};function a(){return e("div",{className:"flex",children:e(t,{max:3,value:1})})}var r,s,m;a.parameters={...a.parameters,docs:{...(r=a.parameters)==null?void 0:r.docs,source:{originalSource:`function PaginationDotStories() {
+  return <div className="flex">\r
+      <PaginationDot max={3} value={1} />\r
+    </div>;
+}`,...(m=(s=a.parameters)==null?void 0:s.docs)==null?void 0:m.source}}};const D=["PaginationDotStories"];export{a as PaginationDotStories,D as __namedExportsOrder,f as default};
+//# sourceMappingURL=PaginationDot.stories-a9c216f8.js.map

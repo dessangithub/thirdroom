@@ -1,0 +1,12 @@
+import{j as c,a as e,F as u}from"./jsx-runtime-06a742f9.js";import{c as p}from"./index-f9f0573c.js";import{T as h}from"./Text-9cbc10ca.js";import{A as C}from"./Avatar-fda7e3e3.js";import{I as n}from"./IconButton-5b313af7.js";import{C as f}from"./cross-da909995.js";import"./index-f2bd0723.js";import"./_commonjsHelpers-042e6b4d.js";import"./Icon-341303e8.js";function r({className:t,avatar:l,title:d,options:m}){return c("header",{className:p("ChatHeader flex items-center",t),children:[e("div",{className:"shrink-0 flex",children:l}),e("div",{className:"ChatHeader__title grow",children:e(h,{className:"truncate",children:d})}),e("div",{className:"ChatHeader__options shrink-0 flex",children:m})]})}try{r.displayName="ChatHeader",r.__docgenInfo={description:"",displayName:"ChatHeader",props:{className:{defaultValue:null,description:"",name:"className",required:!1,type:{name:"string"}},avatar:{defaultValue:null,description:"",name:"avatar",required:!0,type:{name:"ReactNode"}},title:{defaultValue:null,description:"",name:"title",required:!0,type:{name:"string"}},options:{defaultValue:null,description:"",name:"options",required:!0,type:{name:"ReactNode"}}}}}catch{}const g="/storybook/assets/minus-18e1b698.svg",S={title:"ChatHeader",component:r};function a(){return e("div",{style:{backgroundColor:"white",maxWidth:"500px"},children:e(r,{avatar:e(C,{size:"sm",name:"The Gaming Bunch",bgColor:"#9a1c75"}),title:"The Gaming Bunch",options:c(u,{children:[e(n,{variant:"surface",label:"Minimize",iconSrc:g,onClick:()=>console.log("clicked")}),e(n,{variant:"surface",label:"Close",iconSrc:f,onClick:()=>console.log("clicked")})]})})})}var o,i,s;a.parameters={...a.parameters,docs:{...(o=a.parameters)==null?void 0:o.docs,source:{originalSource:`function ChatHeaderStories() {
+  return <div style={{
+    backgroundColor: "white",
+    maxWidth: "500px"
+  }}>\r
+      <ChatHeader avatar={<Avatar size="sm" name="The Gaming Bunch" bgColor="#9a1c75" />} title="The Gaming Bunch" options={<>\r
+            <IconButton variant="surface" label="Minimize" iconSrc={MinusIC} onClick={() => console.log("clicked")} />\r
+            <IconButton variant="surface" label="Close" iconSrc={CrossIC} onClick={() => console.log("clicked")} />\r
+          </>} />\r
+    </div>;
+}`,...(s=(i=a.parameters)==null?void 0:i.docs)==null?void 0:s.source}}};const B=["ChatHeaderStories"];export{a as ChatHeaderStories,B as __namedExportsOrder,S as default};
+//# sourceMappingURL=ChatHeader.stories-4b711071.js.map
