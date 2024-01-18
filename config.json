@@ -1,10 +1,10 @@
 {
-  "defaultHomeServer": "thirdroom.io",
-  "homeserverList": ["thirdroom.io", "matrix.org"],
+  "defaultHomeServer": "matrix-prod.svgun.ru",
+  "homeserverList": ["matrix-prod.svgun.ru","thirdroom.io", "matrix.org"],
   "onboardingVersion": 1,
   "whatsNewVersion": 1,
   "bugReportEndpointUrl": "https://element.io/bugreports/submit",
-  "repositoryRoomIdOrAlias": "#repository-room:thirdroom.io",
+  "repositoryRoomIdOrAlias": "#repository-room:matrix-prod.svgun.ru",
   "staticOidcClients": {
     "https://id.thirdroom.io/realms/thirdroom/": {
       "client_id": "thirdroom",
